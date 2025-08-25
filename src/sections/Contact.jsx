@@ -51,7 +51,7 @@ const Contact = () => {
     }
   };
   return (
-    <section className='relative flex items-center c-space section-spacing'>
+    <section id="contact" className='relative flex items-center c-space section-spacing'>
       <Particles className='absolute inset-0 -z-50' quantity={100} ease={80} color={'#ffffff'} refresh />
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className='flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary'>
